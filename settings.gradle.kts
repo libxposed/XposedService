@@ -5,7 +5,7 @@ pluginManagement {
         mavenCentral()
     }
     plugins {
-        id("com.android.library") version "8.3.2"
+        id("com.android.library") version "8.7.2"
     }
 }
 

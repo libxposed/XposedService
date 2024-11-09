@@ -6,8 +6,8 @@ plugins {
 
 android {
     namespace = "io.github.libxposed.service"
-    compileSdk = 34
-    buildToolsVersion = "34.0.0"
+    compileSdk = 35
+    buildToolsVersion = "35.0.0"
 
     defaultConfig {
         minSdk = 24
@@ -33,7 +33,7 @@ android {
 
 dependencies {
     implementation(project(":interface"))
-    compileOnly("androidx.annotation:annotation:1.7.1")
+    compileOnly("androidx.annotation:annotation:1.9.1")
 }
 
 publishing {

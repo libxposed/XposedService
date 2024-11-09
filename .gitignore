@@ -4,4 +4,4 @@
 /.idea
 /captures
 /local.properties
-build
+build/
